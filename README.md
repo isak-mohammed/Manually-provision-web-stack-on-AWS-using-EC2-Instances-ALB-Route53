@@ -7,7 +7,7 @@ For this setup, you need the following:
 4. Maven installed on your local machine
 5. Domain name of your choice, so that we can access the application over the internet.
 
-Note: we will be using default VPC for this setup and planning to add more stuff in coming weeks with separate VPCs. We can use centos7 ami for all the 4x instances or can use ubuntu 18 ami for just tomcat instance as it will be easy to control the start and stop of tomcat service with systemctl command without much setup.
+Note: we will be using default VPC for this setup and will be using centos7 ami for all the 3x backend instances and ubuntu 18 ami for just tomcat instance as it will be easy to control the tomcat service with systemctl command without much setup.
 ## Steps Involved in the setup:
 1. Clone the repo and cd into project-1
 2. Login to aws account & choose appropriate region nearest to you.
